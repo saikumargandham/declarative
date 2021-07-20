@@ -6,7 +6,7 @@ stages
 stage('shell execute')
 {
 steps
-  sh 'echo $JAVA_HOME'
+  sh "echo $JAVA_HOME"
 }
 }
 }
