@@ -2,7 +2,7 @@ pipeline
 {
 agent any
 stages
-{stage('shell execute')
+{stage('shel execute')
 {
 steps
   sh "echo $JAVA_HOME"
